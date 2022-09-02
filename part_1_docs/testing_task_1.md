@@ -20,11 +20,11 @@ class CardGame:
   def check_for_ace(self, card):
     if card.value = 1:
       return True
-    else
+    else      # Missing colon after else
       return False
    
 
-  dif highest_card(self, card1 card2):
+  dif highest_card(self, card1 card2): # def misspelled and missing a comma between card1 and card2
   if card1.value > card2.value:
     return card
   else:
@@ -33,9 +33,9 @@ class CardGame:
 
 
 def cards_total(self, cards):
-  total
+  total   # missing = to define as variable
   for card in cards:
     total += card.value
-    return "You have a total of" + total
+    return "You have a total of" + total  # return inside the for loop
   
 ```
