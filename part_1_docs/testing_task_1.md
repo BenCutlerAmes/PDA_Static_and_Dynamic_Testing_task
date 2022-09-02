@@ -18,14 +18,14 @@ class CardGame:
 
 
   def check_for_ace(self, card):
-    if card.value = 1:
+    if card.value = 1: #missing equals sign for logical test. Should be ==
       return True
     else      # Missing colon after else
       return False
    
 
   dif highest_card(self, card1 card2): # def misspelled and missing a comma between card1 and card2
-  if card1.value > card2.value:
+  if card1.value > card2.value: ##indentation incorrect
     return card
   else:
     return card2
@@ -36,6 +36,7 @@ def cards_total(self, cards):
   total   # missing = to define as variable
   for card in cards:
     total += card.value
-    return "You have a total of" + total  # return inside the for loop
+    return "You have a total of" + total  # return inside the for loop and total won't concatenate unless coerced to string
+    
   
 ```
